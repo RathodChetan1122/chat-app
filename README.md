@@ -1,11 +1,11 @@
-SmartConnect Chat Application
+**SmartConnect Chat Application**
 SmartConnect is a modern, context-aware chat application that enables real-time messaging with a clean, intuitive UI and persistent storage. Built using React for the frontend and Node.js with Socket.IO for the backend, SmartConnect allows users to communicate securely in real-time. The app uses MongoDB for persistent storage and offers potential for AI-based contextual chat.
 
-📋 Project Overview
+**📋 Project Overview**
 Objective:
 Build a modern, real-time chat application that offers a seamless, context-aware messaging experience with secure login, real-time communication, and a persistent database.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Frontend Technologies:
 Vite – Fast React project scaffolding.
 
@@ -41,7 +41,7 @@ JWT + bcrypt – For secure user authentication.
 
 Docker / Kubernetes – For containerization and orchestration during deployment.
 
-🔑 Key Features
+**🔑 Key Features**
 Real-Time Messaging:
 
 Bi-directional communication via Socket.IO.
@@ -68,7 +68,7 @@ Timestamps displayed on each message.
 
 Fully responsive layout using Bootstrap grid.
 
-🏗 System Architecture
+**🏗 System Architecture**
 Frontend (client/):
 Vite + React: Fast bootstrapping and component-based UI development.
 
@@ -89,7 +89,7 @@ cors: Enables cross-origin resource sharing between frontend and backend during 
 
 nodemon: Auto-restarts the server on code changes for a smoother development experience.
 
-🔄 Data Flow
+**🔄 Data Flow**
 User Login → Selects a chat partner.
 
 Socket Connection: Established between frontend and backend.
@@ -102,7 +102,7 @@ Server Broadcasts: Server saves the message and broadcasts it to all connected c
 
 Real-Time Updates: All connected clients update their UIs in real time.
 
-🛠 Tech Stack at a Glance
+**🛠 Tech Stack at a Glance**
 Languages & Runtimes: JavaScript (ESM), Node.js
 
 Frameworks & Libraries: React, Express, Socket.IO, Mongoose
@@ -113,54 +113,47 @@ Database: MongoDB Atlas / Local MongoDB
 
 Dev Tools: Vite, npm, nodemon, dotenv
 
-🚀 Setup & Installation
+**🚀 Setup & Installation**
 Prerequisites:
 Node.js installed (preferably the latest LTS version).
 
 MongoDB Atlas account (or local MongoDB setup).
 
 1. Clone the Repository:
-bash
-Copy
-Edit
+
 git clone https://github.com/yourusername/chat-app.git
 cd chat-app
+
 2. Install Dependencies:
 For the frontend:
 
-bash
-Copy
-Edit
+
 cd client  # if React app is in the 'client' folder
 npm install
+
 For the backend:
 
-bash
-Copy
-Edit
 cd server  # if the backend is in the 'server' folder
 npm install
+
 3. Set Up Environment Variables:
 Create a .env file in the root of the backend/server/ folder:
 
-ini
-Copy
-Edit
+
 PORT=5000
 MONGO_URI=your_mongo_connection_string_here
+
 4. Run the Project:
+   
 For the frontend:
 
-bash
-Copy
-Edit
+
 cd client
 npm start  # Runs the React app locally on http://localhost:3000
+
 For the backend:
 
-bash
-Copy
-Edit
+
 cd server
 npm run dev  # Runs the server locally
 🚀 Next Steps & Enhancements
