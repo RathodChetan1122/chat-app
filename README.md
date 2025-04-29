@@ -1,5 +1,5 @@
-**SmartConnect Chat Application**
-SmartConnect is a modern, context-aware chat application that enables real-time messaging with a clean, intuitive UI and persistent storage. Built using React for the frontend and Node.js with Socket.IO for the backend, SmartConnect allows users to communicate securely in real-time. The app uses MongoDB for persistent storage and offers potential for AI-based contextual chat.
+**A Secure chat application for instant communication**
+ChatApp is a modern, context-aware chat application that enables real-time messaging with a clean, intuitive UI and persistent storage. Built using React for the frontend and Node.js with Socket.IO for the backend, SmartConnect allows users to communicate securely in real-time. The app uses MongoDB for persistent storage and offers potential for AI-based contextual chat.
 
 **📋 Project Overview**
 Objective:
