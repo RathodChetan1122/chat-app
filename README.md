@@ -5,7 +5,7 @@ ChatApp is a modern, context-aware chat application that enables real-time messa
 Objective:
 Build a modern, real-time chat application that offers a seamless, context-aware messaging experience with secure login, real-time communication, and a persistent database.
  
-**🛠️ Tech Stack**
+**🛠️ Tech Stack** 
 Frontend Technologies:  
 Vite – Fast React project scaffolding.
 
