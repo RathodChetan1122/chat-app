@@ -17,7 +17,7 @@ socket.io-client – Real-time WebSocket communication.
 
 npm / Node.js – Package and build tooling.
 
-Backend Technologies:
+Backend Technologies:  
 Node.js – JavaScript runtime for the server-side code.
 
 Express – Web framework for HTTP routes and JSON parsing.
