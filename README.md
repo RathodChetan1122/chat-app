@@ -6,7 +6,7 @@ Objective:
 Build a modern, real-time chat application that offers a seamless, context-aware messaging experience with secure login, real-time communication, and a persistent database.
  
 **🛠️ Tech Stack**
-Frontend Technologies:
+Frontend Technologies:  
 Vite – Fast React project scaffolding.
 
 React – Component-based UI library.
